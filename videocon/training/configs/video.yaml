@@ -1,5 +1,5 @@
 data_files: [
-    '<absolute path to train file> (local_dir/train.csv)',
+    'examples/videocon_format_train.csv',
     '<absolute path to val file> (local_dir/val.csv)',
 ]
 
