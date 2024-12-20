@@ -36,8 +36,8 @@ eval_iter=50
 mkdir -p ${SAVE_PATH}
 
 options=" \
-	--pretrained-ckpt  <path to mplug-owl-video dir> \
-	--finetuned-ckpt <path to Videocon pytorch_model.bin checkpoint>  \
+	--pretrained-ckpt  videocon/training/pipeline_video/mplug_owl_video \
+	--finetuned-ckpt videophy/videocon_physics/pytorch_model.bin  \
 	--seq-length ${max_length} \
 	--micro-batch-size ${micro_batch_size} \
     --train-epochs ${train_epochs} \
