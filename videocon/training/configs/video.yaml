@@ -1,6 +1,6 @@
 data_files: [
     'examples/videocon_format_train.csv',
-    '<absolute path to val file> (local_dir/val.csv)',
+    'examples/videocon_format_val.csv',
 ]
 
 pretrained_ckpt: '<path to mPLUGOwl-7B-Video> (local_dir/mplug-owl-llama-7b-video/)'
