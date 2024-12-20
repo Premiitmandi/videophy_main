@@ -3,4 +3,4 @@ data_files: [
     'examples/videocon_format_val.csv',
 ]
 
-pretrained_ckpt: '<path to mPLUGOwl-7B-Video> (local_dir/mplug-owl-llama-7b-video/)'
+pretrained_ckpt: 'videocon/training/pipeline_video/mplug_owl_video'
