@@ -64,4 +64,4 @@ multimodal_options=" \
 	--mm-config configs/video.yaml 
     "
 
-CUDA_VISIBLE_DEVICES=0,3 python -m torch.distributed.launch $DISTRIBUTED_ARGS /content/videophy/videocon/training/pipeline_video/train.py $@ ${options} ${multimodal_options} 2>&1 | tee ${SAVE_PATH}/train.log 
+CUDA_VISIBLE_DEVICES=0,3 python -m torch.distributed.launch $DISTRIBUTED_ARGS videocon/training/pipeline_video/train.py $@ ${options} ${multimodal_options} 2>&1 | tee ${SAVE_PATH}/train.log 
