@@ -1,6 +1,6 @@
 data_files: [
-    '/content/videophy/examples/videocon_format_train1.csv',
-    '/content/videophy/examples/videocon_format_val1.csv',
+    'examples/videocon_format_train1.csv',
+    'examples/videocon_format_val1.csv',
 ]
 
-pretrained_ckpt: '/content/videophy/videocon/training/pipeline_video/mplug_owl_video'
+pretrained_ckpt: 'videocon/training/pipeline_video/mplug_owl_video'
